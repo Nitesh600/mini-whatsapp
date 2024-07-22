@@ -1,0 +1,32 @@
+body{
+   background-color: rgb(37, 211, 102);
+    margin: 20px;
+    
+}
+.new{
+    background-color: rgb(255, 208, 0);
+    border-radius: 5px;
+   }
+   .edit{
+    border-radius: 5px;
+    background-color: darkkhaki;
+   }
+   .delete{
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+   }
+.chat{
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 1rem;
+    display: inline-block;
+}
+.msg{
+    background-color: cadetblue;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 1rem;
+
+}
+
