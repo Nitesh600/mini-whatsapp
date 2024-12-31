@@ -77,10 +77,6 @@ app.delete("/chats/:id", async(req,res)=>{
 });
 
 
-app.get("/", (req,res)=>{
-    res.send("Congrates! Root is working");
-});
-
 app.listen(port, ()=>{
     console.log(`app is listening to the port ${port}`);
 });
